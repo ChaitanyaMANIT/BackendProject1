@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is my First BackEnd Project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +12,8 @@
     "BackEnd"
   ],
   "author": "Chaitanya Kulkarni",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
